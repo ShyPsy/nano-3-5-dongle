@@ -1,6 +1,6 @@
 # Charybdis 3x5 with Dongle and ZMK STUDIO
 
-![3x6](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/1.JPG)
+![3x6](https://github.com/devpew/charybdis-3-6-dongle-prospector-studio/blob/main/img/111.JPG)
 
 ## Что такое донгл и зачем он нужен
 
