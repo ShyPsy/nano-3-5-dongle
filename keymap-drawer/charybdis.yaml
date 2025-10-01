@@ -1,7 +1,6 @@
-layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
+layout: {zmk_keyboard: charybdis, layout_name: charybdis_5col_layout}
 layers:
   Base:
-  - {t: ESCAPE, h: Function}
   - Q
   - W
   - E
@@ -12,8 +11,6 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - TAB
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHFT}
@@ -24,8 +21,6 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
-  - {t: ▽, type: trans}
-  - LSHFT
   - Z
   - {t: X, h: Ctl+ X}
   - {t: C, h: Ctl+ C}
@@ -36,7 +31,6 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
   - LCTRL
   - Symbol
   - {t: RET, h: LGUI}
@@ -53,9 +47,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LGUI
   - LALT
   - LSHFT
@@ -68,11 +59,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Number
   - Symbol
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +73,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbol:
-  - {t: ▽, type: trans}
   - ''
   - ''
   - '{'
@@ -96,8 +83,6 @@ layers:
   - <
   - '>'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - (
@@ -108,8 +93,6 @@ layers:
   - /
   - '*'
   - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - ''
   - '['
@@ -120,14 +103,12 @@ layers:
   - _
   - .
   - '"'
-  - {t: ▽, type: trans}
   - ''
   - {type: held}
   - {t: ▽, type: trans}
   - ''
   - ''
   Number:
-  - {t: ▽, type: trans}
   - ''
   - '7'
   - '8'
@@ -138,8 +119,6 @@ layers:
   - UP
   - PG DN
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LGUI
   - {t: '4', h: LALT}
   - {t: '5', h: LSHFT}
@@ -150,8 +129,6 @@ layers:
   - {t: DOWN, h: RSHFT}
   - {t: RIGHT, h: RALT}
   - RGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - '1'
   - '2'
@@ -162,14 +139,12 @@ layers:
   - {t: ▽, type: trans}
   - END
   - ''
-  - {t: ▽, type: trans}
   - .
   - '0'
   - SPACE
   - {type: held}
   - ''
   Function:
-  - {type: held}
   - Ctl+Alt+ DEL
   - F7
   - F8
@@ -180,8 +155,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - F4
   - F5
@@ -192,8 +165,6 @@ layers:
   - LSHFT
   - LALT
   - LGUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ''
   - F1
   - F2
@@ -201,99 +172,17 @@ layers:
   - DEV TOOLS
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  Game:
-  - ESCAPE
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - {t: ▽, type: trans}
-  - LALT
-  - SPACE
-  - M
-  - T
-  - B
-  Reset:
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - BOOT LDR
-  - BOOT LDR
-  - ''
+  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
+    SPACE, M, T, B]
+  Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
 combos:
 - p: [20, 24]
   k: {t: Reset, h: toggle}
