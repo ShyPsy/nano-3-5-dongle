@@ -1,41 +1,6 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_5col_layout}
 layers:
-  Base:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
-  - G
-  - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: LGUI}
-  - Z
-  - {t: X, h: Ctl+ X}
-  - {t: C, h: Ctl+ C}
-  - V
-  - {t: B, h: Ctl+ V}
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LCTRL
-  - Symbol
-  - {t: RET, h: LGUI}
-  - {t: SPACE, h: Number}
-  - BSPC
+  Base0: ['', W, E, R, T, Y, U, I, O, '', A, S, D, F, G, H, J, K, L, ;, Z, X, C, V, B, N, M, ',', '', '', BSPC, LCTRL, '', '', '']
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,7 +61,7 @@ layers:
   - ''
   - ''
   - '['
-  - ']'
+  - {t: ']', type: held}
   - '?'
   - '&'
   - '='
@@ -104,7 +69,7 @@ layers:
   - .
   - '"'
   - ''
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -131,7 +96,7 @@ layers:
   - RGUI
   - ''
   - '1'
-  - '2'
+  - {t: '2', type: held}
   - '3'
   - Ctl+ -
   - Ctl+ =
@@ -142,7 +107,7 @@ layers:
   - .
   - '0'
   - SPACE
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   Function:
   - Ctl+Alt+ DEL
@@ -191,7 +156,7 @@ combos:
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
-  k: {t: Base, h: toggle}
+  k: {t: Base0, h: toggle}
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
