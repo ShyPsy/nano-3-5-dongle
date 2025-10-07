@@ -36,42 +36,42 @@ layers:
   - {t: DEL, h: Number}
   - {t: RET, h: Rese}
   - {t: SPACE, h: Game}
-  Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
+  Game1:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
   - LCTRL
+  - Z
+  - X
+  - C
+  - V
   - {t: ▽, type: trans}
+  - L CLK
+  - Res
+  - R CLK
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Number
-  - Symbol
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BSPC
+  - SPACE
+  - DEL
+  - RET
+  - SPACE
   Symbol:
   - ''
   - ''
@@ -288,7 +288,42 @@ layers:
   - BOOT LDR
   - {t: BOOT LDR, type: held}
   - ''
-  Res: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
+  Res:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT LDR
+  - BOOT LDR
+  - ''
   Re: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
 combos:
 - p: [20, 24]
@@ -302,7 +337,7 @@ combos:
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
-  k: {t: Mouse, h: toggle}
+  k: {t: Game1, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]

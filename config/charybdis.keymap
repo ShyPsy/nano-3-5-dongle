@@ -179,15 +179,21 @@
             >;
     };
 
-    Mous {
-      display-name = "Mouse";
-      bindings = <
-        &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans 
-        &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans
-        &trans   &trans   &mo 3     &mo 2     &trans            &trans &trans   &trans   &trans   &trans
-                          &mkp MB1  &mkp MB2  &mkp MB3          &trans &trans 
-      >;
-    };
+    
+        Game {
+            display-name = "Game1";
+            bindings = <
+            // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Gam╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+                   &kp ESC        &kp Q         &kp W         &kp E         &kp R             &kp N1        &kp N2        &kp N3        &kp N4        &kp N5
+            // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+                  &kp LSHFT       &kp A         &kp S         &kp D         &kp F             &kp G         &kp H         &kp J         &kp K         &kp L
+            // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Gam├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+                  &kp LCTRL       &kp Z         &kp X         &kp C         &kp V             &trans      &mkp LCLK       &mo 8       &mkp RCLK       &trans
+            // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 1 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
+                                               &kp BSPC     &kp SPACE      &kp DEL           &kp RET      &kp SPACE
+            //                             ╰─────────────┴─────────────┴─────────────╯Gam╰─────────────┴─────────────╯
+            >;
+        };
 
     Sym {
       display-name = "Symbol";
@@ -268,6 +274,7 @@
     };
   };
 };
+
 
 
 
