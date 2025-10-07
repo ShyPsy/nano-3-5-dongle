@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_5col_layout}
 layers:
   Base0:
-  - {t: Q, h: Reset}
+  - {t: Q, h: FN_6}
   - W
   - E
   - R
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: Symbol}
+  - {t: P, h: FN2}
   - A
   - S
   - D
@@ -29,13 +29,13 @@ layers:
   - N
   - M
   - ','
-  - {t: ., h: Game}
-  - {t: /, h: Function}
+  - {t: ., h: Navigation}
+  - {t: /, h: Mouse4}
   - BSPC
   - LCTRL
-  - {t: DEL, h: Number}
-  - {t: RET, h: Rese}
-  - {t: SPACE, h: Game}
+  - {t: DEL, h: Num3}
+  - {t: RET, h: Dot_7}
+  - {t: SPACE, h: Navigation}
   Game1:
   - ESC
   - Q
@@ -64,7 +64,7 @@ layers:
   - V
   - {t: ▽, type: trans}
   - L CLK
-  - Res
+  - Scr_8
   - R CLK
   - {t: ▽, type: trans}
   - BSPC
@@ -72,270 +72,305 @@ layers:
   - DEL
   - RET
   - SPACE
-  Symbol:
-  - ''
-  - ''
-  - '{'
-  - '}'
-  - '|'
-  - '`'
-  - '~'
-  - <
-  - '>'
-  - {t: \, type: held}
-  - ''
-  - ''
-  - (
-  - )
-  - ':'
-  - +
-  - '-'
-  - /
-  - '*'
-  - ''''
-  - ''
-  - ''
-  - '['
-  - ']'
-  - '?'
-  - '&'
-  - '='
-  - _
-  - .
-  - '"'
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  Number:
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - ''
-  - ''
-  - PG UP
-  - UP
-  - PG DN
-  - ''
-  - LGUI
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHFT}
-  - {t: '6', h: LCTRL}
-  - ''
-  - ''
-  - {t: LEFT, h: RCTRL}
-  - {t: DOWN, h: RSHFT}
-  - {t: RIGHT, h: RALT}
-  - RGUI
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - Ctl+ -
-  - Ctl+ =
-  - HOME
-  - {t: ▽, type: trans}
-  - END
-  - ''
-  - .
-  - '0'
-  - {t: SPACE, type: held}
-  - {t: ▽, type: trans}
-  - ''
-  Function:
-  - Ctl+Alt+ DEL
+  FN2:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - PSCRN
+  - LCTRL
+  - LSHFT
+  - LALT
+  - {type: held}
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - F4
-  - F5
-  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
-  - ''
-  - LCTRL
-  - LSHFT
-  - LALT
-  - LGUI
-  - ''
-  - F1
-  - F2
-  - F3
   - DEV TOOLS
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  Game:
-  - ESCAPE
-  - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Num3:
+  - AL CALC
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - MUTE
+  - '`'
+  - '7'
+  - '8'
+  - '9'
+  - '='
+  - {t: ▽, type: trans}
+  - LALT
+  - LSHFT
   - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - ''
-  - LSHIFT
-  - Z
-  - X
-  - C
-  - V
+  - PSCRN
+  - KP PLUS
+  - '4'
+  - '5'
+  - '6'
+  - KP MINUS
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - KP MULTIPLY
   - '1'
   - '2'
   - '3'
-  - {t: '4', type: held}
-  - '5'
+  - KP SLASH
+  - BSPC
+  - LCTRL
+  - {t: DEL, type: held}
+  - RET
+  - '0'
+  Mouse4:
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - {t: ▽, type: trans}
+  - L CLK
+  - Scr_9
+  - R CLK
+  - {t: ▽, type: trans}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - F
+  - L CLK
+  - Scr_8
+  - R CLK
+  - {t: LCTRL, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: RET, h: Dot_7}
+  - {t: SPACE, h: Navigation}
+  Navigation:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PG UP
+  - UP
+  - PG DN
+  - F11
+  - LWIN
   - LALT
+  - LSHFT
+  - LCTRL
+  - PSCRN
+  - END
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LCTRL
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - F
+  - VOL DN
+  - VOL UP
+  - {t: MUTE, type: held}
+  - LALT
+  - BSPC
+  - LCTRL
+  - DEL
+  - RET
   - SPACE
-  - M
-  - T
-  - B
-  Reset:
+  FN_6:
+  - {t: LWIN, type: held}
+  - LALT
+  - LSHFT
+  - LCTRL
+  - PSCRN
+  - F10
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - LWIN
+  - LALT
+  - LSHFT
+  - LCTRL
+  - PSCRN
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEV TOOLS
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Dot_7:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+Ctl+ I
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ 1
+  - '['
+  - ']'
+  - Sft+ 7
+  - Sft+ ]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+Ctl+ M
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - Sft+ 7
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BOOT LDR
-  - BOOT LDR
-  - ''
-  Rese:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BOOT LDR
-  - {t: BOOT LDR, type: held}
-  - ''
-  Res:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  Scr_8:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - BOOT LDR
-  - BOOT LDR
-  - ''
-  Re: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Scr_9:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [20, 24]
-  k: {t: Reset, h: toggle}
+  k: {t: FN_6, h: toggle}
 - p: [25, 29]
-  k: {t: Reset, h: toggle}
+  k: {t: FN_6, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
   k: {t: Base0, h: toggle}
 - p: [27, 28]
-  k: {t: Function, h: sticky}
+  k: {t: Mouse4, h: sticky}
 - p: [5, 9]
   k: {t: Game1, h: toggle}
 - p: [1, 2]
