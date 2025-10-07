@@ -122,7 +122,7 @@
     };
     combo_normal {
       key-positions = <7 8>;
-      bindings = <&to BASE>;
+      bindings = <&to BASEE>;
     };
     combo_fn {
       key-positions = <27 28>;
@@ -227,6 +227,7 @@
     };
   };
 };
+
 
 
 
