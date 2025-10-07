@@ -109,8 +109,8 @@
   combos {
     compatible = "zmk,combos";
     timeout-ms = <20>;
-    require-prior-idle-ms = <250>;
-    };
+    require-prior-idle-ms = <250>; 
+
     combo_reset_central {
       key-positions = <32 33>;
       bindings = <&bootloader>;
@@ -211,6 +211,7 @@
     };
   };
 };
+
 
 
 
