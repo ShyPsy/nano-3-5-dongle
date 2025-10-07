@@ -31,11 +31,11 @@ layers:
   - ','
   - {t: ., h: Navigation}
   - {t: /, h: Mouse4}
-  - BSPC
-  - LCTRL
-  - {t: DEL, h: Num3}
-  - {t: RET, h: Dot_7}
-  - {t: SPACE, h: Navigation}
+  - A
+  - B
+  - C
+  - D
+  - E
   Game1:
   - ESC
   - Q
@@ -141,7 +141,7 @@ layers:
   - KP SLASH
   - BSPC
   - LCTRL
-  - {t: DEL, type: held}
+  - DEL
   - RET
   - '0'
   Mouse4:
@@ -282,7 +282,7 @@ layers:
   - Alt+Ctl+ M
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '['
   - ']'
   - Sft+ 7
