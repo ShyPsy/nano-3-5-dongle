@@ -248,8 +248,27 @@
                     &none &none &bootloader          &bootloader &none                
       >;
     };
+    Res {
+      display-name = "Res";
+      bindings = <
+        &none &none &none &none &none                &none &none &none &none &none
+        &none &none &none &none &none                &none &none &none &none &none
+        &none &none &none &none &none                &none &none &none &none &none
+                    &none &none &bootloader          &bootloader &none                
+      >;
+    };
+    Re {
+      display-name = "Re";
+      bindings = <
+        &none &none &none &none &none                &none &none &none &none &none
+        &none &none &none &none &none                &none &none &none &none &none
+        &none &none &none &none &none                &none &none &none &none &none
+                    &none &none &bootloader          &bootloader &none                
+      >;
+    };
   };
 };
+
 
 
 
