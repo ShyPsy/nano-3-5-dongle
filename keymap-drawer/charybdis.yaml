@@ -160,7 +160,7 @@ combos:
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
-  k: {t: Game, h: toggle}
+  k: {t: Mouse, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
