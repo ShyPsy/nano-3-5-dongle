@@ -156,7 +156,7 @@
         compatible = "zmk,keymap";
 
         Base_0 {
-            label = "Base0";
+            display-name = "Base0";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Bse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                    &lt 6 Q        &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O        &lt FN P
@@ -172,7 +172,7 @@
         };
 
         Game_1 {
-            label = "Game1";
+            display-name = "Game1";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Gam╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                    &kp ESC        &kp Q         &kp W         &kp E         &kp R             &kp N1        &kp N2        &kp N3        &kp N4        &kp N5
@@ -187,7 +187,7 @@
         };
 
         FN_2 {
-            label = "FN2";
+            display-name = "FN2";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮F11╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp PSCRN     &kp LCTRL     &kp LSHFT      &kp LALT       &trans
@@ -202,7 +202,7 @@
         };
 
         Num_3 {
-            label = "Num3";
+            display-name = "Num3";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Num╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                 &kp C_AL_CALC   &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE        &kp GRAVE       &kp N7        &kp N8        &kp N9      &kp EQUAL
@@ -217,7 +217,7 @@
         };
 
         Mouse_4 {
-            label = "Mouse4";
+            display-name = "Mouse4";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Mse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                   &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans        &trans        &trans        &trans       &kp F11
@@ -232,7 +232,7 @@
         };
 
         Navigation_5 {
-            label = "Navigation";
+            display-name = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans           &kp HOME      &kp PG_UP      &kp UP      &kp PG_DN      &kp F11
@@ -247,7 +247,7 @@
         };
 
         FN_6 {
-            label = "FN_6";
+            display-name = "FN_6";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮F12╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                    &kp LWIN     &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp F10        &kp F7        &kp F8        &kp F9        &trans
@@ -262,7 +262,7 @@
         };
 
         Dot_7 {
-            label = "Dot_7";
+            display-name = "Dot_7";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Dot╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans            &trans        &trans    &kp LA(LC(I))     &trans        &trans
@@ -277,7 +277,7 @@
         };
 
         Scr_8 {
-            label = "Scr_8";
+            display-name = "Scr_8";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Scr╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
@@ -292,7 +292,7 @@
         };
 
         Scr_9 {
-            label = "Scr_9";
+            display-name = "Scr_9";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Scr╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                     &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans        &trans
@@ -307,6 +307,7 @@
         };
     };
 };
+
 
 
 
