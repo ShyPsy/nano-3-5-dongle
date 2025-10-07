@@ -1,6 +1,41 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_5col_layout}
 layers:
-  Base0: ['', W, E, R, T, Y, U, I, O, '', A, S, D, F, G, H, J, K, L, ;, Z, X, C, V, B, N, M, ',', '', '', BSPC, LCTRL, '', '', '']
+  Base0:
+  - {t: Q, h: Reset}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - {t: P, h: Symbol}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - {t: ., h: Game}
+  - {t: /, h: Function}
+  - BSPC
+  - LCTRL
+  - {t: DEL, h: Number}
+  - {t: RET, h: Rese}
+  - {t: SPACE, h: Game}
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -47,7 +82,7 @@ layers:
   - '~'
   - <
   - '>'
-  - \
+  - {t: \, type: held}
   - ''
   - ''
   - (
@@ -61,7 +96,7 @@ layers:
   - ''
   - ''
   - '['
-  - {t: ']', type: held}
+  - ']'
   - '?'
   - '&'
   - '='
@@ -96,7 +131,7 @@ layers:
   - RGUI
   - ''
   - '1'
-  - {t: '2', type: held}
+  - '2'
   - '3'
   - Ctl+ -
   - Ctl+ =
@@ -106,7 +141,7 @@ layers:
   - ''
   - .
   - '0'
-  - SPACE
+  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - ''
   Function:
@@ -137,7 +172,51 @@ layers:
   - DEV TOOLS
   - ''
   - ''
+  - ''
+  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Game:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - ''
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - '1'
+  - '2'
+  - '3'
+  - {t: '4', type: held}
+  - '5'
+  - LALT
+  - SPACE
+  - M
+  - T
+  - B
+  Reset:
   - {type: held}
   - ''
   - ''
@@ -145,9 +224,70 @@ layers:
   - ''
   - ''
   - ''
-  Game: [ESCAPE, Q, W, E, R, '', '', '', '', '', LCTRL, A, S, D, F, '', '&mkp MB1', '&mkp MB2', '&mkp MB3', '', LSHIFT, Z, X, C, V, '1', '2', '3', '4', '5', LALT,
-    SPACE, M, T, B]
-  Reset: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', BOOT LDR, BOOT LDR, '']
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT LDR
+  - BOOT LDR
+  - ''
+  Rese:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT LDR
+  - {t: BOOT LDR, type: held}
+  - ''
 combos:
 - p: [20, 24]
   k: {t: Reset, h: toggle}
