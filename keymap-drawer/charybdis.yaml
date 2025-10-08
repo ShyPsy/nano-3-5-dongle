@@ -361,18 +361,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [20, 24]
-  k: {t: FN_6, h: toggle}
-- p: [25, 29]
-  k: {t: FN_6, h: toggle}
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
   k: {t: Base0, h: toggle}
 - p: [27, 28]
   k: {t: Mouse4, h: sticky}
-- p: [5, 9]
-  k: {t: Game1, h: toggle}
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
@@ -381,3 +375,25 @@ combos:
   k: Ctl+ BACK SPACE
 - p: [0, 4]
   k: ZMK Studio
+- p: [3, 4]
+  k: '`'
+- p: [13, 14]
+  k: F16
+- p: [23, 24]
+  k: Sft+ 9
+- p: [5, 6]
+  k: Ctl+Alt+ P
+- p: [15, 16]
+  k: F17
+- p: [25, 26]
+  k: Sft+ 0
+- p: [9, 18, 27]
+  k: BOOT LDR
+- p: [0, 11, 22]
+  k: BOOT LDR
+- p: [33, 34]
+  k: {t: Mouse4, h: toggle}
+- p: [18, 29]
+  k: {t: Game1, h: toggle}
+- p: [6, 7, 8]
+  k: {t: Navigation, h: toggle}

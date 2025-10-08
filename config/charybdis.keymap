@@ -114,14 +114,6 @@
     timeout-ms = <20>;
     require-prior-idle-ms = <250>;
 
-    combo_reset_layer_left {
-      key-positions = <20 24>;
-      bindings = <&to RESET>;
-    };
-    combo_reset_layer_right {
-      key-positions = <25 29>;
-      bindings = <&to RESET>;
-    };
     combo_reset_central {
       key-positions = <32 33>;
       bindings = <&bootloader>;
@@ -134,10 +126,6 @@
     combo_fn {
       key-positions = <27 28>;
       bindings = <&sl FUNCTION>;
-    };
-    combo_genshin {
-      key-positions = <5 9>;
-      bindings = <&to GAME>;
     };
     combo_esc {
       key-positions = <1 2>;
@@ -155,6 +143,60 @@
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
     };
+        qote {
+            bindings = <&kp GRAVE>;
+            key-positions = <3 4>;
+        };
+
+        eng {
+            bindings = <&kp F16>;
+            key-positions = <13 14>;
+        };
+
+        ParaLeft {
+            bindings = <&kp LS(N9)>;
+            key-positions = <23 24>;
+        };
+
+        greatt {
+            bindings = <&kp LC(LA(P))>;
+            key-positions = <5 6>;
+        };
+
+        rus {
+            bindings = <&kp F17>;
+            key-positions = <15 16>;
+        };
+
+        ParaRight {
+            bindings = <&kp LS(N0)>;
+            key-positions = <25 26>;
+        };
+
+         bootloaderRight {
+            bindings = <&bootloader>;
+            key-positions = <9 18 27>;
+        };
+
+        bootloaderLeft {
+            bindings = <&bootloader>;
+            key-positions = <0 11 22>;
+        };
+
+        gomouse {
+            bindings = <&tog 4>;
+            key-positions = <33 34>;
+        };
+
+        game {
+            bindings = <&tog 1>;
+            key-positions = <18 29>;
+        };
+
+        GoNav {
+            bindings = <&tog 5>;
+            key-positions = <6 7 8>;
+        };
   };
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
@@ -316,3 +358,4 @@
         };
     };
 };
+
