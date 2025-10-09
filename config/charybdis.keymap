@@ -114,11 +114,7 @@
     timeout-ms = <20>;
     require-prior-idle-ms = <250>;
 
-    combo_reset_central {
-      key-positions = <32 33>;
-      bindings = <&bootloader>;
-      require-prior-idle-ms = <2000>;
-    };
+   
     combo_normal {
       key-positions = <7 8>;
       bindings = <&to BASE>;
@@ -153,6 +149,11 @@
             key-positions = <13 14>;
         };
 
+        rus {
+            bindings = <&kp F17>;
+            key-positions = <15 16>;
+        };
+
         ParaLeft {
             bindings = <&kp LS(N9)>;
             key-positions = <23 24>;
@@ -161,11 +162,6 @@
         greatt {
             bindings = <&kp LC(LA(P))>;
             key-positions = <5 6>;
-        };
-
-        rus {
-            bindings = <&kp F17>;
-            key-positions = <15 16>;
         };
 
         ParaRight {
@@ -358,6 +354,7 @@
         };
     };
 };
+
 
 
 

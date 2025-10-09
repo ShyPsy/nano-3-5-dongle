@@ -361,8 +361,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [32, 33]
-  k: BOOT LDR
 - p: [7, 8]
   k: {t: Base0, h: toggle}
 - p: [27, 28]
@@ -379,12 +377,12 @@ combos:
   k: '`'
 - p: [13, 14]
   k: F16
+- p: [15, 16]
+  k: F17
 - p: [23, 24]
   k: Sft+ 9
 - p: [5, 6]
   k: Ctl+Alt+ P
-- p: [15, 16]
-  k: F17
 - p: [25, 26]
   k: Sft+ 0
 - p: [9, 18, 27]
