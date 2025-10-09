@@ -315,8 +315,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOL DN
+  - VOL UP
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
