@@ -31,12 +31,12 @@
 
     verticalscroll {
       layers = <8>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_y_scaler 9 10>, <&zip_x_scaler 0 1>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
+      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_y_scaler 1 1>, <&zip_x_scaler 0 1>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
       
     };
-    classicvertscroll {
+   horizonscroll {
       layers = <9>;
-      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_y_scaler 10 1>, <&zip_x_scaler 0 1>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
+      input-processors = <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_y_scaler 0 1>, <&zip_x_scaler 1 1>, <&zip_xy_to_scroll_mapper>; // скейлер это множитель и делитель скролла
      
     // 2Dscroll {
     //  layers = <9>;
