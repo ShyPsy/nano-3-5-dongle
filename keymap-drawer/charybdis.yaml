@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - ','
-  - {t: ., h: Navigation}
+  - {t: ., h: Scr_8}
   - {t: /, h: Mouse4}
   - BSPC
   - LCTRL
@@ -209,13 +209,13 @@ layers:
   - F
   - VOL DN
   - VOL UP
-  - {t: MUTE, type: held}
+  - MUTE
   - LALT
   - BSPC
   - LCTRL
   - DEL
   - RET
-  - SPACE
+  - {t: SPACE, type: held}
   FN_6:
   - {t: LWIN, type: held}
   - LALT
@@ -316,8 +316,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
