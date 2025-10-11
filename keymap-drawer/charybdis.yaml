@@ -269,20 +269,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+ 1
+  - Sft+ ]
   - '['
   - ']'
   - Sft+ 7
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ 1
   - Sft+ ]
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+Ctl+ M
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - Sft+ 7
   - '['
   - ']'
   - Sft+ 7
