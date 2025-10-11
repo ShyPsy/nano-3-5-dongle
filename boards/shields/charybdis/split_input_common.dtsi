@@ -51,6 +51,7 @@
   };
 
   auto_mouse_layer: auto_mouse_layer {   // тут был автомауслеер
+   layers = <0>;
    compatible = "zmk,input-processor-temp-layer";   // тут был автомауслеер
   #input-processor-cells = <2>;   // тут был автомауслеер
    require-prior-idle-ms = <500>; // тут был автомауслеер
