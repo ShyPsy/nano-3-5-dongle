@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - {t: ., h: Scr_8}
-  - {t: /, h: Mouse4}
+  - {t: /, h: Mouse10}
   - BSPC
   - LCTRL
   - {t: DEL, h: Num3}
@@ -172,9 +172,9 @@ layers:
   - Ctl+ Y
   - F
   - L CLK
-  - Scr_8
-  - R CLK
-  - {t: LCTRL, type: held}
+  - {t: Scr_8, type: held}
+  - {t: R CLK, type: held}
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,12 +354,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Mouse10:
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F11
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - {t: ▽, type: trans}
+  - L CLK
+  - Scr_9
+  - R CLK
+  - {t: ▽, type: trans}
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - F
+  - L CLK
+  - Scr_8
+  - R CLK
+  - {t: LCTRL, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: RET, h: Dot_7}
+  - {t: SPACE, h: Navigation}
 combos:
 - p: [7, 8]
   k: {t: Base0, h: toggle}
@@ -390,7 +426,7 @@ combos:
 - p: [0, 11, 22]
   k: BOOT LDR
 - p: [33, 34]
-  k: {t: Mouse4, h: toggle}
+  k: {t: Mouse10, h: toggle}
 - p: [18, 29]
   k: {t: Game1, h: toggle}
 - p: [6, 7, 8]
