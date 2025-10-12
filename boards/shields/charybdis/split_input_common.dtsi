@@ -44,16 +44,16 @@
       
     };
 
-     move {  // автомауслеер
-     layers = <0>; // слои в которых активен автомауслеер 
-     input-processors = <&auto_mouse_layer MOUSE 1000>; // видимо время активности слоя после остановки шара
-     }; // автомауслеер
-  };
+//     move {  // автомауслеер
+//     layers = <0>; // слои в которых активен автомауслеер 
+//     input-processors = <&auto_mouse_layer MOUSE 1000>; // видимо время активности слоя после остановки шара
+//     }; // автомауслеер
+//  };
 
-  auto_mouse_layer: auto_mouse_layer {   // автомауслеер
-   compatible = "zmk,input-processor-temp-layer";   // автомауслеер
-  #input-processor-cells = <2>;   // ?
-   require-prior-idle-ms = <500>; // время деактивации слоя после остановки шара
-  #excluded-positions = <20 21 22 23 24 25 26 27 28 29>;   // ?
+//  auto_mouse_layer: auto_mouse_layer {   // автомауслеер
+//   compatible = "zmk,input-processor-temp-layer";   // автомауслеер
+//  #input-processor-cells = <2>;   // ?
+//   require-prior-idle-ms = <500>; // время деактивации слоя после остановки шара
+//  #excluded-positions = <20 21 22 23 24 25 26 27 28 29>;   // ?
   };
 };
