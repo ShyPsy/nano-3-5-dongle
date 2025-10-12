@@ -131,10 +131,10 @@
       key-positions = <2 3>;
       bindings = <&kp TAB>;
     };
-    combo_cdel {
-      key-positions = <11 12>;
-      bindings = <&kp LC(BACKSPACE)>;
-    };
+//    combo_cdel {
+//      key-positions = <11 12>;
+//      bindings = <&kp LC(BACKSPACE)>;
+//    };
     combo_unlock {
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
@@ -369,6 +369,7 @@
         };
     };
 };
+
 
 
 

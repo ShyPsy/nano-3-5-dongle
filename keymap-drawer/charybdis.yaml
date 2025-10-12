@@ -405,8 +405,6 @@ combos:
   k: ESCAPE
 - p: [2, 3]
   k: TAB
-- p: [11, 12]
-  k: Ctl+ BACK SPACE
 - p: [0, 4]
   k: ZMK Studio
 - p: [3, 4]
