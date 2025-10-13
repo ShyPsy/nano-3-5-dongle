@@ -181,7 +181,7 @@
 
         gomouse {
             bindings = <&tog MOUSE>;
-            key-positions = <33 34>;
+            key-positions = <16 25>;
         };
 
         game {
@@ -369,6 +369,7 @@
         };
     };
 };
+
 
 
 

@@ -423,7 +423,7 @@ combos:
   k: BOOT LDR
 - p: [0, 11, 22]
   k: BOOT LDR
-- p: [33, 34]
+- p: [16, 25]
   k: {t: Mouse4, h: toggle}
 - p: [18, 29]
   k: {t: Game1, h: toggle}
