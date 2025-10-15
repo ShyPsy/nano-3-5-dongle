@@ -193,6 +193,10 @@
             bindings = <&tog 5>;
             key-positions = <6 7 8>;
         };
+        GoScroll {
+            bindings = <&tog 8>;
+            key-positions = <15 26>;
+        };
   };
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
@@ -369,6 +373,7 @@
         };
     };
 };
+
 
 
 
