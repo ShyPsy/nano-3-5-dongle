@@ -150,7 +150,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ Y
-  - BACK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
