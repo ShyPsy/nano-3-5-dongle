@@ -28,9 +28,9 @@ layers:
   - B
   - N
   - M
-  - ','
-  - {t: ., h: Scr_8}
-  - {t: /, h: Mouse4}
+  - '['
+  - {t: ']', h: Scr_8}
+  - {t: Sft+ 7, h: Mouse4}
   - BSPC
   - LCTRL
   - {t: DEL, h: Num3}
