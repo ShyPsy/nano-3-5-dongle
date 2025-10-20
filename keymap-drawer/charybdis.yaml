@@ -257,32 +257,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SHELL
+  - Sft+ 1
+  - Sft+ 2
   - Alt+Ctl+ I
+  - Sft+ 3
+  - Sft+ 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ 1
-  - Sft+ ]
+  - Sft+ [
   - '['
   - ']'
   - Sft+ 7
+  - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ 1
+  - {t: ▽, type: trans}
+  - Alt+Ctl+ M
   - Sft+ ]
-  - '['
-  - ']'
-  - Sft+ 7
+  - Alt+Ctl+ 9
+  - Alt+Ctl+ 0
   - '['
   - ']'
   - Sft+ 7
