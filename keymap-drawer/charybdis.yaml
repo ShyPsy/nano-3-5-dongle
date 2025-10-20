@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ [
+  - Ctl+ `
   - '['
   - ']'
   - Sft+ 7
@@ -278,7 +278,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ [
   - Alt+Ctl+ M
   - Sft+ ]
   - Alt+Ctl+ 9
