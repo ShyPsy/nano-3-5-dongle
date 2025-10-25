@@ -145,11 +145,11 @@ layers:
   - RET
   - '0'
   Mouse4:
-  - Ctl+ Z
-  - Ctl+ X
+  - Gui+Sft+ S
+  - Ctl+ W
   - Ctl+ C
   - Ctl+ V
-  - Ctl+ Y
+  - Ctl+Sft+ T
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
-  - Ctl+ V
+  - Gui+ V
   - Ctl+ Y
   - F
   - L CLK
