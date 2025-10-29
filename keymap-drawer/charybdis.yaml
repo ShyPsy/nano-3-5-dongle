@@ -427,6 +427,8 @@ combos:
   k: {t: Mouse4, h: toggle}
 - p: [18, 29]
   k: {t: Game1, h: toggle}
+- p: [0, 24]
+  k: {t: Game1, h: toggle}
 - p: [6, 7, 8]
   k: {t: Navigation, h: toggle}
 - p: [15, 26]
