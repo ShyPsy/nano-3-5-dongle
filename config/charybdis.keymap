@@ -116,7 +116,7 @@
 
    
     combo_normal {
-      key-positions = <7 8>;
+      key-positions = <6 7 8>;
       bindings = <&to BASE>;
     };
     combo_fn {
@@ -195,7 +195,7 @@
         };
         GoNav {
             bindings = <&tog 5>;
-            key-positions = <6 7 8>;
+            key-positions = <6 7>;
         };
         GoScroll {
             bindings = <&tog 8>;
@@ -204,7 +204,7 @@
 
         fullscree {
             bindings = <&kp F11>;
-            key-positions = <0 1>;
+            key-positions = <7 8>;
         };
   };
   chosen {
@@ -382,6 +382,7 @@
         };
     };
 };
+
 
 
 
