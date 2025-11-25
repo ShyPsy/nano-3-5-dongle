@@ -433,5 +433,5 @@ combos:
   k: {t: Navigation, h: toggle}
 - p: [15, 26]
   k: {t: Scr_8, h: toggle}
-- p: [7, 8]
+- p: [0, 1]
   k: F11
