@@ -202,7 +202,7 @@
             key-positions = <15 26>;
         };
 
-        f11 {
+        fullscr {
             bindings = <&kp F11>;
             key-positions = <7 8>;
         };
@@ -382,6 +382,7 @@
         };
     };
 };
+
 
 
 
