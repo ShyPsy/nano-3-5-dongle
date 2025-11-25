@@ -201,6 +201,11 @@
             bindings = <&tog 8>;
             key-positions = <15 26>;
         };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <7 8>;
+        };
   };
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
@@ -377,6 +382,7 @@
         };
     };
 };
+
 
 
 
