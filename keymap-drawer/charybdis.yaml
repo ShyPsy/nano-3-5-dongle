@@ -211,9 +211,9 @@ layers:
   - VOL UP
   - MUTE
   - Mouse4
-  - BSPC
+  - Ctl+ BSPC
   - LCTRL
-  - DEL
+  - Ctl+ DEL
   - RET
   - {t: SPACE, type: held}
   FN_6:
@@ -429,9 +429,9 @@ combos:
   k: {t: Game1, h: toggle}
 - p: [0, 24]
   k: {t: Game1, h: toggle}
-- p: [6, 7]
+- p: [5, 16]
   k: {t: Navigation, h: toggle}
 - p: [15, 26]
   k: {t: Scr_8, h: toggle}
-- p: [7, 8]
+- p: [6, 15]
   k: F11
