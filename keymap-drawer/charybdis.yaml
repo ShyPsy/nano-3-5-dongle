@@ -431,7 +431,7 @@ combos:
   k: {t: Game1, h: toggle}
 - p: [5, 16]
   k: {t: Navigation, h: toggle}
-- p: [15, 26]
-  k: {t: Scr_8, h: toggle}
 - p: [6, 15]
+  k: {t: Scr_8, h: toggle}
+- p: [5, 7, 8]
   k: F11

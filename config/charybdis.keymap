@@ -199,12 +199,12 @@
         };
         GoScroll {
             bindings = <&tog 8>;
-            key-positions = <15 26>;
+            key-positions = <6 15>;
         };
 
         fullscree {
             bindings = <&kp F11>;
-            key-positions = <6 15>;
+            key-positions = <5 7 8>;
         };
   };
   chosen {
@@ -382,6 +382,7 @@
         };
     };
 };
+
 
 
 
