@@ -181,7 +181,7 @@
 
         gomouse {
             bindings = <&tog MOUSE>;
-            key-positions = <16 25>;
+            key-positions = <6 15>;
         };
 
         game {
@@ -199,7 +199,7 @@
         };
         GoScroll {
             bindings = <&tog 8>;
-            key-positions = <6 15>;
+            key-positions = <16 25>;
         };
 
         fullscree {
@@ -382,6 +382,7 @@
         };
     };
 };
+
 
 
 
