@@ -31,8 +31,8 @@ layers:
   - ','
   - {t: ., h: Scr_8}
   - {t: /, h: Mouse4}
-  - BSPC
   - LCTRL
+  - BSPC
   - {t: DEL, h: Num3}
   - {t: RET, h: Dot_7}
   - {t: SPACE, h: Navigation}
@@ -139,8 +139,8 @@ layers:
   - '2'
   - '3'
   - KP SLASH
-  - BSPC
   - LCTRL
+  - BSPC
   - {t: DEL, type: held}
   - RET
   - '0'
@@ -211,8 +211,8 @@ layers:
   - VOL UP
   - MUTE
   - Mouse4
-  - Ctl+ BSPC
   - LCTRL
+  - Ctl+ BSPC
   - Ctl+ DEL
   - RET
   - {t: SPACE, type: held}
