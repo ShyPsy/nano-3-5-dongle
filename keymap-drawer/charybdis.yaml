@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_5col_layout}
 layers:
   Base0:
-  - {t: Q, h: FN_6}
+  - Q
   - W
   - E
   - R
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: FN2}
+  - P
   - A
   - S
   - D
@@ -82,7 +82,7 @@ layers:
   - LCTRL
   - LSHFT
   - LALT
-  - {type: held}
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
@@ -217,7 +217,7 @@ layers:
   - RET
   - {t: SPACE, type: held}
   FN_6:
-  - {t: LWIN, type: held}
+  - LWIN
   - LALT
   - LSHFT
   - LCTRL
