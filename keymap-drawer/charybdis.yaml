@@ -285,7 +285,7 @@ layers:
   - Alt+Ctl+ 0
   - BSPC
   - '0'
-  - RET
+  - SPACE
   - {type: held}
   - {t: ▽, type: trans}
   Scr_8:
@@ -425,7 +425,7 @@ combos:
   k: BOOT LDR
 - p: [0, 11, 22]
   k: BOOT LDR
-- p: [6, 15]
+- p: [15, 26]
   k: {t: Mouse4, h: toggle}
 - p: [18, 29]
   k: {t: Game1, h: toggle}
@@ -437,5 +437,5 @@ combos:
   k: {t: Scr_8, h: toggle}
 - p: [1, 2, 4]
   k: {t: Dot_7, h: toggle}
-- p: [6, 25]
+- p: [6, 15]
   k: F11
