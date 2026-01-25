@@ -254,9 +254,9 @@ layers:
   - {t: ▽, type: trans}
   Dot_7:
   - ']'
-  - '7'
-  - '8'
   - '9'
+  - '8'
+  - '7'
   - '['
   - Sft+ 1
   - Sft+ 2
@@ -264,9 +264,9 @@ layers:
   - Sft+ 3
   - Sft+ 5
   - KP PLUS
-  - '4'
-  - '5'
   - '6'
+  - '5'
+  - '4'
   - KP MINUS
   - Sft+ `
   - '['
@@ -274,9 +274,9 @@ layers:
   - Sft+ 7
   - KP MINUS
   - KP MULTIPLY
-  - '1'
-  - '2'
   - '3'
+  - '2'
+  - '1'
   - KP SLASH
   - Sft+ [
   - Alt+Ctl+ M
