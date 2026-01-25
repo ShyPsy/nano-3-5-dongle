@@ -213,6 +213,10 @@
             bindings = <&kp F11>;
             key-positions = <6 15>;
         };
+        fullscreenLeft {
+            bindings = <&kp F11>;
+            key-positions = <3 14>;
+        };
   };
   chosen {
     zmk,physical-layout = &charybdis_5col_layout;
@@ -389,6 +393,7 @@
         };
     };
 };
+
 
 
 

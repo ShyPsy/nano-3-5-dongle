@@ -439,3 +439,5 @@ combos:
   k: {t: Dot_7, h: toggle}
 - p: [6, 15]
   k: F11
+- p: [3, 14]
+  k: F11
