@@ -253,39 +253,39 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Dot_7:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SHELL
+  - ']'
+  - '7'
+  - '8'
+  - '9'
+  - '['
   - Sft+ 1
   - Sft+ 2
   - Alt+Ctl+ I
   - Sft+ 3
   - Sft+ 5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP PLUS
+  - '4'
+  - '5'
+  - '6'
+  - KP MINUS
   - Sft+ `
   - '['
   - ']'
   - Sft+ 7
   - KP MINUS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP MULTIPLY
+  - '1'
+  - '2'
+  - '3'
+  - KP SLASH
   - Sft+ [
   - Alt+Ctl+ M
   - Sft+ ]
   - Alt+Ctl+ 9
   - Alt+Ctl+ 0
-  - '['
-  - ']'
-  - Sft+ 7
+  - BSPC
+  - '0'
+  - RET
   - {type: held}
   - {t: ▽, type: trans}
   Scr_8:

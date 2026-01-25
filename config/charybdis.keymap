@@ -325,13 +325,13 @@
             display-name = "Dot_7";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Dot╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &trans        &trans        &trans        &trans    &kp LA(LC(T))       &kp LS(N1)    &kp LS(N2)   &kp LA(LC(I))  &kp LS(N3)    &kp LS(N5)
+                   &kp RBKT       &kp N7        &kp N8        &kp N9       &kp LBKT         &kp LS(N1)    &kp LS(N2)   &kp LA(LC(I))  &kp LS(N3)    &kp LS(N5)
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 7 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans        &trans        &trans        &trans        &kp LS(GRAVE)    &kp LBKT      &kp RBKT     &kp LS(N7)   &kp KP_MINUS   
+                 &kp KP_PLUS      &kp N4        &kp N5        &kp N6    &kp KP_MINUS      &kp LS(GRAVE)    &kp LBKT      &kp RBKT     &kp LS(N7)   &kp KP_MINUS   
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Dot├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                    &trans        &trans        &trans        &trans        &trans        &kp LS(LBKT)  &kp LA(LC(M))  &kp LS(RBKT) &kp LA(LC(N9)) &kp LA(LC(N0))  
+               &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3    &kp KP_SLASH      &kp LS(LBKT)  &kp LA(LC(M)) &kp LS(RBKT) &kp LA(LC(N9)) &kp LA(LC(N0))  
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 7 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                               &kp LBKT      &kp RBKT     &kp LS(N7)          &trans        &trans
+                                               &kp BSPC       &kp N0       &kp RET           &trans        &trans
             //                             ╰─────────────┴─────────────┴─────────────╯Dot╰─────────────┴─────────────╯
             >;
         };
@@ -382,6 +382,7 @@
         };
     };
 };
+
 
 
 
