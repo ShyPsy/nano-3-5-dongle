@@ -119,6 +119,10 @@
       key-positions = <5 7 8>;
       bindings = <&to BASE>;
     };
+    combo_normalleft {
+      key-positions = <1 2 3>;
+      bindings = <&to BASE>;
+    };
     combo_fn {
       key-positions = <27 28>;
       bindings = <&sl FUNCTION>;
@@ -385,6 +389,7 @@
         };
     };
 };
+
 
 
 
