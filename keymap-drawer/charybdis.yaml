@@ -397,7 +397,7 @@ layers:
   - {t: RET, h: Dot_7}
   - {t: SPACE, h: Navigation}
 combos:
-- p: [5, 7, 8]
+- p: [6, 7, 8]
   k: {t: Base0, h: toggle}
 - p: [1, 2, 3]
   k: {t: Base0, h: toggle}
@@ -437,5 +437,5 @@ combos:
   k: {t: Scr_8, h: toggle}
 - p: [1, 2, 4]
   k: {t: Dot_7, h: toggle}
-- p: [6, 7, 8]
+- p: [6, 25]
   k: F11

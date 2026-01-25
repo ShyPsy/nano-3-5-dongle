@@ -116,7 +116,7 @@
 
    
     combo_normal {
-      key-positions = <5 7 8>;
+      key-positions = <6 7 8>;
       bindings = <&to BASE>;
     };
     combo_normalleft {
@@ -211,7 +211,7 @@
         };
         fullscree {
             bindings = <&kp F11>;
-            key-positions = <6 7 8>;
+            key-positions = <6 25>;
         };
   };
   chosen {
@@ -389,6 +389,7 @@
         };
     };
 };
+
 
 
 
