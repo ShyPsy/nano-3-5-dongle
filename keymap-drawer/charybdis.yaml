@@ -263,21 +263,21 @@ layers:
   - Alt+Ctl+ I
   - Sft+ 3
   - Sft+ 5
-  - KP PLUS
+  - KP MINUS
   - '6'
   - '5'
   - '4'
-  - KP MINUS
+  - KP PLUS
   - Sft+ `
   - '['
   - ']'
   - Sft+ 7
   - KP MINUS
-  - KP MULTIPLY
+  - KP SLASH
   - '3'
   - '2'
   - '1'
-  - KP SLASH
+  - KP MULTIPLY
   - Sft+ [
   - Alt+Ctl+ M
   - Sft+ ]
