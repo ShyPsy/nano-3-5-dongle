@@ -201,7 +201,10 @@
             bindings = <&tog 8>;
             key-positions = <16 25>;
         };
-
+        GoNumDot {
+            bindings = <&tog 7>;
+            key-positions = <1 2 4>;
+        };
         fullscree {
             bindings = <&kp F11>;
             key-positions = <6 7 8>;
