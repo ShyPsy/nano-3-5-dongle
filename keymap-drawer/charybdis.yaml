@@ -403,8 +403,6 @@ combos:
   k: {t: Base0, h: toggle}
 - p: [27, 28]
   k: {t: Mouse4, h: sticky}
-- p: [1, 2]
-  k: ESCAPE
 - p: [2, 3]
   k: TAB
 - p: [0, 4]
