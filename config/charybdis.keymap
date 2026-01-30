@@ -131,10 +131,10 @@
 //      key-positions = <1 2>;
 //      bindings = <&kp ESCAPE>;
 //    };
-    combo_tab {
-      key-positions = <2 3>;
-      bindings = <&kp TAB>;
-    };
+//    combo_tab {
+//      key-positions = <2 3>;
+//      bindings = <&kp TAB>;
+//    };
 //    combo_cdel {
 //      key-positions = <11 12>;
 //      bindings = <&kp LC(BACKSPACE)>;
@@ -306,11 +306,11 @@
             display-name = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &trans        &trans        &trans        &trans        &trans           &kp HOME      &kp PG_UP      &kp UP      &kp PG_DN      &kp F11
+                   &trans        &trans       &kp HOME       &kp END        &kp F           &kp ESCAPE    &kp PG_UP      &kp UP       &kp PG_DN      &kp F11
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                   &kp LWIN     &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp END       &kp LEFT      &kp DOWN     &kp RIGHT     &kp LCTRL
+                  &kp LWIN      &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp RET      &kp LEFT      &kp DOWN      &kp RIGHT     &kp LCTRL
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Nav├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &kp F     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE     &mo MOUSE
+                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)          &kp TAB    &kp C_VOL_DN  &kp C_VOL_UP   &kp C_MUTE     &mo MOUSE
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &kp LCTRL    &kp LC(BSPC)   &kp LC(DEL)        &kp RET      &kp SPACE 
             //                             ╰─────────────┴─────────────┴─────────────╯Nav╰─────────────┴─────────────╯
@@ -393,6 +393,7 @@
         };
     };
 };
+
 
 
 

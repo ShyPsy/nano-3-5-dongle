@@ -183,10 +183,10 @@ layers:
   Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - HOME
+  - END
+  - F
+  - ESCAPE
   - PG UP
   - UP
   - PG DN
@@ -196,7 +196,7 @@ layers:
   - LSHFT
   - LCTRL
   - PSCRN
-  - END
+  - RET
   - LEFT
   - DOWN
   - RIGHT
@@ -206,7 +206,7 @@ layers:
   - Ctl+ C
   - Ctl+ V
   - Ctl+ Y
-  - F
+  - TAB
   - VOL DN
   - VOL UP
   - MUTE
@@ -403,8 +403,6 @@ combos:
   k: {t: Base0, h: toggle}
 - p: [27, 28]
   k: {t: Mouse4, h: sticky}
-- p: [2, 3]
-  k: TAB
 - p: [0, 4]
   k: ZMK Studio
 - p: [3, 4]
