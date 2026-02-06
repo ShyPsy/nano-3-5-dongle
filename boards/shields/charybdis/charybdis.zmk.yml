@@ -1,6 +1,6 @@
 file_format: "1"
 id: charybdis
-name: Charybdis
+name: CharybdisNano
 type: shield
 url: https://github.com/bastardkb/charybdis/
 requires: [pro_micro]
@@ -10,4 +10,5 @@ features:
 siblings:
   - charybdis_dongle
   - charybdis_left
+
   - charybdis_right
