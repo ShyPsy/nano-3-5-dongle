@@ -2,6 +2,7 @@ if SHIELD_CHARYBDIS_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "Charybdis nano"
+CONFIG_ZMK_BLE_NAME="Charybdis nano"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
@@ -14,4 +15,5 @@ config ZMK_SPLIT
 	default y
 	
 endif
+
 
