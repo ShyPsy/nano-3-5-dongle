@@ -1,5 +1,5 @@
 file_format: "1"
-id: charybdis
+id: charybdisn
 name: Charybdis
 type: shield
 url: https://github.com/bastardkb/charybdis/
@@ -10,4 +10,5 @@ features:
 siblings:
   - charybdis_dongle
   - charybdis_left
+
   - charybdis_right
