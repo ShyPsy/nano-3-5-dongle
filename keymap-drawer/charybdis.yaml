@@ -260,8 +260,8 @@ layers:
   - '['
   - Sft+ 1
   - Sft+ 2
-  - Alt+Ctl+ I
   - Sft+ 3
+  - Alt+Ctl+ 9
   - Sft+ 5
   - KP MINUS
   - '6'
@@ -278,10 +278,10 @@ layers:
   - '2'
   - '1'
   - KP MULTIPLY
-  - Sft+ [
   - Alt+Ctl+ M
+  - Sft+ [
   - Sft+ ]
-  - Alt+Ctl+ 9
+  - Alt+Ctl+ .
   - Alt+Ctl+ 0
   - BSPC
   - '0'
