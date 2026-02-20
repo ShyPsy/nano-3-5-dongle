@@ -278,11 +278,11 @@ layers:
   - '2'
   - '1'
   - KP MULTIPLY
-  - Alt+Ctl+ M
+  - Alt+Ctl+ 0
   - Sft+ [
   - Sft+ ]
   - Alt+Ctl+ .
-  - Alt+Ctl+ 0
+  - KP SLASH
   - BSPC
   - '0'
   - SPACE
