@@ -1604,9 +1604,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(476, 91)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+</tspan><tspan x="0" dy="1.2em">`</tspan>
-</text>
+<text x="0" y="-4" class="key tap">`</text>
 </g>
 <g transform="translate(532, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2917,7 +2915,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(28, 28)" class="key  combo-separate keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key  combo-separate side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key  combo-separate"/>
-<text x="0" y="-4" class="key  combo-separate tap">`</text>
+<text x="0" y="-4" class="key  combo-separate tap">
+<tspan x="0" dy="-0.6em">Sft+</tspan><tspan x="0" dy="1.2em">`</tspan>
+</text>
 </g>
 <g transform="translate(14, 88)" class="key keypos-1">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key side"/>
