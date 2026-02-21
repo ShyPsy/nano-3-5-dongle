@@ -261,7 +261,7 @@ layers:
   - Sft+ 1
   - Sft+ 2
   - Sft+ 3
-  - Alt+Ctl+ 9
+  - Sft+ 4
   - Sft+ 5
   - KP MINUS
   - '6'
@@ -278,7 +278,7 @@ layers:
   - '2'
   - '1'
   - KP MULTIPLY
-  - Alt+Ctl+ 0
+  - Sft+ `
   - Sft+ [
   - Sft+ ]
   - Alt+Ctl+ .
@@ -406,7 +406,7 @@ combos:
 - p: [0, 4]
   k: ZMK Studio
 - p: [3, 4]
-  k: Sft+ `
+  k: Alt+Ctl+ `
 - p: [13, 14]
   k: F16
 - p: [15, 16]
