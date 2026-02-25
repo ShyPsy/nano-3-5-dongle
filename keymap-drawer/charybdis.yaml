@@ -31,10 +31,10 @@ layers:
   - ','
   - {t: ., h: Scr_8}
   - {t: /, h: Mouse4}
-  - LCTRL
+  - LSHFT
   - BSPC
-  - {t: DEL, h: Num3}
-  - {t: RET, h: Dot_7}
+  - LCTRL
+  - {t: BSPC, h: Dot_7}
   - {t: SPACE, h: Navigation}
   Game1:
   - ESC
@@ -141,7 +141,7 @@ layers:
   - KP SLASH
   - LCTRL
   - BSPC
-  - {t: DEL, type: held}
+  - DEL
   - RET
   - '0'
   Mouse4:
