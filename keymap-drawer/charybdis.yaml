@@ -211,9 +211,9 @@ layers:
   - VOL UP
   - MUTE
   - Mouse4
-  - LCTRL
+  - LSHFT
   - Ctl+ BSPC
-  - Ctl+ DEL
+  - LCTRL
   - RET
   - {t: SPACE, type: held}
   FN_6:
