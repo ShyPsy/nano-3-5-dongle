@@ -31,9 +31,9 @@ layers:
   - ','
   - {t: ., h: Scr_8}
   - {t: /, h: Mouse4}
-  - LSHFT
-  - BSPC
   - LCTRL
+  - BSPC
+  - LSHFT
   - {t: BSPC, h: Dot_7}
   - {t: SPACE, h: Navigation}
   Game1:
@@ -211,9 +211,9 @@ layers:
   - VOL UP
   - MUTE
   - Mouse4
-  - LSHFT
-  - Ctl+ BSPC
   - LCTRL
+  - Ctl+ BSPC
+  - LSHFT
   - RET
   - {t: SPACE, type: held}
   FN_6:
