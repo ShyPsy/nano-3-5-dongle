@@ -110,10 +110,10 @@ layers:
   - {t: ▽, type: trans}
   Num3:
   - AL CALC
-  - MUTE
-  - VOL DN
-  - VOL UP
-  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
   - '7'
   - '8'
