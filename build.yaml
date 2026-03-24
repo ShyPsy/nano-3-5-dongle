@@ -33,10 +33,10 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: settings_reset
-  - board: nice_nano_v2
+  - board: nice_nano/nrf52840/zmk
     shield: settings_reset
 
-  - board: board: nice_nano/nrf52840/zmk
+  - board: nice_nano/nrf52840/zmk
     shield: charybdis_left
-  - board: board: nice_nano/nrf52840/zmk
+  - board: nice_nano/nrf52840/zmk
     shield: charybdis_right
