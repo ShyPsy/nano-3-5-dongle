@@ -2,14 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define BASE 0
-
-#define SYMBOL 2
-#define NUMBER 3
-#define FUNCTION 4
-
-#define RESET 6
-
+#define BASE  0
 #define GAME  1
 #define FN    2
 #define NUM   3
@@ -122,10 +115,6 @@
     combo_normalleft {
       key-positions = <1 2 3>;
       bindings = <&to BASE>;
-    };
-    combo_fn {
-      key-positions = <27 28>;
-      bindings = <&sl FUNCTION>;
     };
 //    combo_esc {
 //      key-positions = <1 2>;
