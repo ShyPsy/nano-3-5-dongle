@@ -258,7 +258,7 @@
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &trans       &kp LALT     &kp LSHFT     &kp LCTRL     &kp PSCRN        &kp KP_PLUS      &kp N4        &kp N5        &kp N6    &kp KP_MINUS
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Num├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3    &kp KP_SLASH
+                  &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)      &kp KP_MULTIPLY    &kp N1        &kp N2        &kp N3    &kp KP_SLASH
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 3 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &kp LCTRL      &kp BSPC      &kp DEL           &kp RET        &kp N0
             //                             ╰─────────────┴─────────────┴─────────────╯Num╰─────────────┴─────────────╯
@@ -269,11 +269,11 @@
             display-name = "Mouse4";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Mse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                &kp LG(LS(S))   &kp LC(W)     &kp LC(C)     &kp LC(V)   &kp LC(LS(T))        &kp ESC        &trans        &trans        &trans       &kp F11
+                &kp LG(LS(S))   &kp LC(W)   &kp LC(LS(T))   &kp LC(C)     &kp LC(V)          &kp ESC        &trans        &trans        &trans       &kp F11
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)       &kp C_AC_BACK   &mkp LCLK       &mo 9       &mkp RCLK       &trans
+                  &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)       &kp C_AC_BACK   &mkp LCLK       &mo 9       &mkp RCLK       &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Mse├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LG(V)     &kp LC(Y)           &kp F       &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL
+                  &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LG(V)           &kp F       &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 4 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                 &trans        &trans        &trans           &mo PPN    &lt NAV SPACE
             //                             ╰─────────────┴─────────────┴─────────────╯Mse╰─────────────┴─────────────╯
@@ -284,11 +284,11 @@
             display-name = "Navigation";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Nav╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                   &trans        &trans       &kp HOME       &kp END        &kp F           &kp ESCAPE    &kp PG_UP      &kp UP       &kp PG_DN      &kp F11
+                    &trans        &trans       &kp HOME      &kp END        &kp F           &kp ESCAPE    &kp PG_UP       &kp UP      &kp PG_DN      &kp F11
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LWIN      &kp LALT      &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp RET      &kp LEFT      &kp DOWN      &kp RIGHT     &kp LCTRL
+                   &kp LWIN      &kp LALT     &kp LSHFT     &kp LCTRL     &kp PSCRN          &kp RET      &kp LEFT       &kp DOWN     &kp RIGHT     &kp LCTRL
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Nav├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)          &kp TAB    &kp C_VOL_DN  &kp C_VOL_UP  &kp LA(LC(DOT)) &mo MOUSE
+                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(Y)     &kp LC(V)          &kp TAB    &kp C_VOL_DN  &kp C_VOL_UP  &kp LA(LC(DOT)) &mo MOUSE
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ 5 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                               &kp LCTRL    &kp LC(BSPC)   &kp LSHFT          &kp RET      &kp SPACE 
             //                             ╰─────────────┴─────────────┴─────────────╯Nav╰─────────────┴─────────────╯
@@ -359,11 +359,11 @@
             display-name = "Mouse10";
             bindings = <
             // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮Mse╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans        &trans        &trans        &trans       &kp F11
+                    &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans        &trans       &kp F11
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤10 ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &trans      &mkp LCLK       &mo 9       &mkp RCLK       &trans
+                  &kp LC(Z)     &kp LC(X)     &kp LC(Y)     &kp LC(C)     &kp LC(V)           &trans      &mkp LCLK       &mo 9       &mkp RCLK       &trans
             // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤Mse├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)           &kp F       &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL
+                    &trans        &trans        &trans        &trans        &trans             &kp F      &mkp LCLK       &mo 8       &mkp RCLK     &kp LCTRL
             // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤10 ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                                 &trans        &trans        &trans           &mo PPN    &lt NAV SPACE
             //                             ╰─────────────┴─────────────┴─────────────╯Mse╰─────────────┴─────────────╯
