@@ -121,9 +121,9 @@
       key-positions = <0 4>;
       bindings = <&studio_unlock>;
     };
-        grave1 {
-            bindings = <&kp LA(LC(GRAVE))>;
-            key-positions = <3 4>;
+        screenshot {
+        bindings = <&kp PSCRN>;
+        key-positions = <3 4>;
         };
 
         eng {
